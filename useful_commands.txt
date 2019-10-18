@@ -1,0 +1,9 @@
+GitHub:
+
+1. git clone <url>  --> to copy a directory
+
+
+
+Anaconda/Conda:
+
+

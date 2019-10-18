@@ -1,0 +1,2 @@
+1. Make a scientific calculator in YACC
+2. Make a parser for SQL queries

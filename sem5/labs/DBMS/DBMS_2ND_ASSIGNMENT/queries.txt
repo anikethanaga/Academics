@@ -1,0 +1,13 @@
+5. SELECT Name AS "Physician" FROM PhysicianE WHERE EmployeeID IN     ( SELECT Undergoes.Physician      FROM Undergoes      LEFT JOIN Trained_In ON Undergoes.Physician=Trained_In.Physician      AND Undergoes.Procedures=Trained_In.Treatment      WHERE Treatment IS NULL );
+
+
+3. SELECT pt.Name, p.Name, pd.Cost FROM Patient pt JOIN Undergoes u ON u.Patient=pt.SSN JOIN PhysicianE p ON pt.PCP=p.EmployeeID JOIN Procedures pd ON u.Procedures=pd.Code WHERE pd.Cost>5000;
+
+
+4. Select p.Name, p.Position, pr.Name, u.DateUndergoes, pt.Name, t.CertificationExpires From PhysicianE p, Undergoes u, Patient pt, Procedures pr, Trained_In t Where u.Patient=pt.SSN And u.Procedures=pr.Code And u.Physician=p.EmployeeID And pr.Code=t.Treatment And p.EmployeeID=t.Physician And u.DateUndergoes > t.CertificationExpires;
+
+
+2. SELECT pt.Name, p.Name, n.Name FROM Appointment a JOIN Patient pt ON a.Patient=pt.SSN JOIN Nurse n ON a.Prepnurse=n.EmployeeID JOIN PhysicianE p ON pt.PCP=p.EmployeeID WHERE a.Patient IN (SELECT Patient FROM Appointment a GROUP BY a.Patient HAVING count(*)>=2) AND n.Registered='true' ORDER BY pt.Name;
+
+1. SELECT pt.Name, p.Name  FROM Patient pt INNER JOIN PhysicianE p ON pt.PCP=p.EmployeeID WHERE pt.PCP NOT IN (SELECT Head FROM Department);
+

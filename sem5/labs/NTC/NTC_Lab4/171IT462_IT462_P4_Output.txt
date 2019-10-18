@@ -1,0 +1,108 @@
+N and b are : 1829 13
+
+Factor Base
+[-1, 2, 5, 7, 11, 13]
+Numbers close to n^(1/2)
+[43, 39, 38, 49, 52, 53]
+13-Smooth Q(a[i]) = a[i] ^ 2 - n
+[20, -308, -385, 572, 875, 980]
+Exponent vector
+[0, 0, 1, 0, 0, 0]
+[1, 0, 0, 1, 1, 0]
+[1, 0, 1, 1, 1, 0]
+[0, 0, 0, 0, 1, 1]
+[0, 0, 1, 1, 0, 0]
+[0, 0, 1, 0, 0, 0]
+
+Exponent vectors chosen are for, 
+a[i] = 39  Q(a[i]) = -308
+a[i] = 38  Q(a[i]) = -385
+a[i] = 53  Q(a[i]) = 980
+1728,1635
+The final factors are : 
+31,59
+
+N and b are : 772637 13
+
+Factor Base
+[-1, 2]
+Numbers close to n^(1/2)
+[879, -879]
+13-Smooth Q(a[i]) = a[i] ^ 2 - n
+[4, 4]
+Exponent vector
+[0, 0]
+[0, 0]
+
+Exponent vectors chosen are for, 
+a[i] = 879  Q(a[i]) = 4
+879,2
+The final factors are : 
+877,881
+
+N and b are : 7387 13
+
+Factor Base
+[-1, 2, 3, 7, 13]
+Numbers close to n^(1/2)
+[86, 87, 77, 95, 74]
+13-Smooth Q(a[i]) = a[i] ^ 2 - n
+[9, 182, -1458, 1638, -1911]
+Exponent vector
+[0, 0, 0, 0, 0]
+[0, 1, 0, 1, 1]
+[1, 1, 0, 0, 0]
+[0, 1, 0, 1, 1]
+[1, 0, 1, 0, 1]
+
+Exponent vectors chosen are for, 
+a[i] = 86  Q(a[i]) = 9
+86,3
+The final factors are : 
+83,89
+
+N and b are : 5977 13
+
+Factor Base
+[-1, 2, 3, 9, 11, 13]
+Numbers close to n^(1/2)
+[79, 75, 73, 71, 85, 89]
+13-Smooth Q(a[i]) = a[i] ^ 2 - n
+[264, -352, -648, -936, 1248, 1944]
+Exponent vector
+[0, 1, 1, 0, 1, 0]
+[1, 1, 0, 0, 1, 0]
+[1, 1, 0, 0, 0, 0]
+[1, 1, 0, 0, 0, 1]
+[0, 1, 1, 0, 0, 1]
+[0, 1, 1, 0, 0, 0]
+
+Exponent vectors chosen are for, 
+a[i] = 85  Q(a[i]) = 1248
+a[i] = 89  Q(a[i]) = 1944
+1588,1557
+The final factors are : 
+1,1
+
+N and b are : 67591 13
+
+Factor Base
+[-1, 2, 3, 5, 9, 13]
+Numbers close to n^(1/2)
+[260, 262, 271, 221, 154, 379]
+13-Smooth Q(a[i]) = a[i] ^ 2 - n
+[9, 1053, 5850, -18750, -43875, 76050]
+Exponent vector
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1]
+[0, 1, 0, 0, 0, 1]
+[1, 1, 1, 1, 0, 0]
+[1, 0, 1, 1, 0, 1]
+[0, 1, 0, 0, 0, 0]
+
+Exponent vectors chosen are for, 
+a[i] = 260  Q(a[i]) = 9
+260,3
+The final factors are : 
+257,263
+

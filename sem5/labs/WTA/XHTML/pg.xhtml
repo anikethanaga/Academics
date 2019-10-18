@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+        Title of Document
+    </title>
+    <script type="text/javascript">
+        function getvalues()
+        {
+            var name=document.getElementById("i1").value;
+            //alert(name);
+            var city=document.getElementById("i2").value;
+            var sel=document.getElementById("s1");
+            var gender=sel.options[sel.selectedIndex].value;
+            //var comments="great"
+            var comments=document.getElementById("tx1").value;
+            //var txt=name+ " "+ city+" "+gender+" "+comments;
+            var txt="Name= "+name+",City= "+city+",Gender= "+gender+ ",Comments= "+comments;
+            //alert(txt);
+            document.getElementById("l1").innerHTML=txt;
+            alert(txt);     
+            return false;
+        }
+    </script>
+   
+
+</head>
+<body>
+    <form onsubmit="return getvalues()">
+        Name:<br/>
+        <input id="i1" placeholder="Name" required="required" /><br/><br/><br/>
+        City:<br/>
+        <input id="i2" placeholder="City" required="required" /><br/><br/><br/>
+        Gender:<br/>
+        <select id="s1">
+        <option value="Male" selected="selected">Male</option><br/>
+        <option value="Female">Female</option><br/>
+        <option value="Others">Other</option><br/><br/><br/>
+        </select><br/><br/>
+        
+        Comments about the site:<br/>
+        <textarea id="tx1" name="message" rows="10" cols="30" value="great" placeholder="comments"></textarea><br/><br/>
+        <!--<label id="l1" type="text" >Hello Friends</label><br/>-->
+        <p id="l1"></p>
+        <button type="submit">Submit</button><br/><br/>
+    </form>
+    <form action="slideshow.xhtml" target="_blank">
+        <button type="submit">Go to next Page(SlideShow)</button>
+
+    </form>
+
+
+</body>
+</html>

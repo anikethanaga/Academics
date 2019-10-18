@@ -1,0 +1,9 @@
+Values of a and b such that (k*n) + (b^2) == (a^2):
+a: 5
+b: 1
+GCD of n and a-b: 4
+GCD of n and a+b: 6
+Prime factors of gcd(n,a-b): 2
+Prime factors of gcd(n,a+b): 2,3
+Prime factors of n using Difference of Squares method: 2,3
+
